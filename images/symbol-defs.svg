@@ -1,0 +1,20 @@
+<svg aria-hidden="true" style="position: absolute; width: 0; height: 0; overflow: hidden;" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<defs>
+<symbol id="icon-logo" viewBox="0 0 45 32">
+<path fill="#9c69e2" style="fill: var(--color1, #9c69e2)" d="M9.143 13.714c5.049 0 9.143 4.093 9.143 9.143s-4.093 9.143-9.143 9.143c-5.049 0-9.143-4.093-9.143-9.143s4.093-9.143 9.143-9.143z"></path>
+<path fill="#f063b8" style="fill: var(--color2, #f063b8)" d="M35.657 0c5.049 0 9.143 4.093 9.143 9.143v13.714c0 5.049-4.093 9.143-9.143 9.143s-9.143-4.093-9.143-9.143v-13.714c0-5.049 4.093-9.143 9.143-9.143z"></path>
+</symbol>
+<symbol id="icon-support" viewBox="0 0 32 32">
+<path fill="#9c69e2" style="fill: var(--color1, #9c69e2)" opacity="0.2" d="M32 16c0 8.837-7.163 16-16 16s-16-7.163-16-16c0-8.837 7.163-16 16-16s16 7.163 16 16z"></path>
+<path fill="#9c69e2" style="fill: var(--color1, #9c69e2)" d="M8 13.867c0-2.946 2.388-5.333 5.333-5.333h5.333c2.946 0 5.333 2.388 5.333 5.333v2.133c0 2.946-2.388 5.333-5.333 5.333h-10.667v-7.467z"></path>
+<path fill="#fff" style="fill: var(--color3, #fff)" d="M13.867 14.933c0 0.589-0.478 1.067-1.067 1.067s-1.067-0.478-1.067-1.067c0-0.589 0.478-1.067 1.067-1.067s1.067 0.478 1.067 1.067z"></path>
+<path fill="#fff" style="fill: var(--color3, #fff)" d="M17.067 14.933c0 0.589-0.478 1.067-1.067 1.067s-1.067-0.478-1.067-1.067c0-0.589 0.478-1.067 1.067-1.067s1.067 0.478 1.067 1.067z"></path>
+<path fill="#fff" style="fill: var(--color3, #fff)" d="M20.267 14.933c0 0.589-0.478 1.067-1.067 1.067s-1.067-0.478-1.067-1.067c0-0.589 0.478-1.067 1.067-1.067s1.067 0.478 1.067 1.067z"></path>
+<path fill="#9c69e2" style="fill: var(--color1, #9c69e2)" d="M13.333 20.8h-5.333v1.316c0 0.829 0.905 1.341 1.615 0.915l3.718-2.231z"></path>
+</symbol>
+<symbol id="arrow-right" viewBox="0 0 46 32">
+<path fill="none" stroke="#9c69e2" style="stroke: var(--color1, #9c69e2)" stroke-linejoin="round" stroke-linecap="round" stroke-miterlimit="4" stroke-width="4" d="M30.57 30.001l12-14-12-14"></path>
+<path fill="none" stroke="#9c69e2" style="stroke: var(--color1, #9c69e2)" stroke-linejoin="round" stroke-linecap="round" stroke-miterlimit="4" stroke-width="4" d="M42.57 16.001h-40"></path>
+</symbol>
+</defs>
+</svg>

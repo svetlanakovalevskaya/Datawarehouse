@@ -8,44 +8,49 @@
     <link rel="stylesheet" href="./css/main.min.css">
 </head>
 <body>
-    <div class="container">
-        <header>
+    <header class="header">
+        <div class="container">
+            <div class="header__elements">
             <a href="index.html">
-                <svg>
-                    <use></use>
+                <svg width="49" height="35">
+                    <use href="./images/symbol-defs.svg#icon-logo"></use>
                 </svg>
             </a>
-            <nav>
+            <nav class="navigation">
                 <ul>
-                    <li>
+                    <li class="navigation__item">
                         <a href="">About</a>
                     </li>
-                    <li>
+                    <li class="navigation__item">
                         <a href="">Help</a>
                     </li>
-                    <li>
+                    <li class="navigation__item">
                         <a href="">Features</a>
                     </li>
-                    <li>
+                    <li class="navigation__item">
                         <a href="">Signup</a>
                     </li>
                 </ul>
             </nav>
-            <button type="button">
-                Request Demo
-                <svg>
-                    <use></use>
+            <button class="button" type="button">
+                <span class="button__text">Request Demo</span>
+                <svg width="20" height="14">
+                    <use href="./images/symbol-defs.svg#arrow-right"></use>
                 </svg>
             </button>
-        </header>
+            </div>
+        </div>
+    </header>
         <main>
             <section class="hero">
-                <h1>Save your data storage here.</h1>
-                <p>Data Warehouse is a data storage area that has been
-                    tested for security, so you can store your data here
-                    safely but not be afraid of being stolen by others.
-                </p>
-                <button type="button">Learn more</button>
+                <div class="container">
+                    <h1 class="hero__title">Save your data storage here.</h1>
+                    <p class="hero__text">Data Warehouse is a data storage area that has been
+                        tested for security, so you can store your data here
+                        safely but not be afraid of being stolen by others.
+                    </p>
+                    <button type="button">Learn more</button>
+                </div>
             </section>
             <section class="description">
                 <h2>We are a high-level data storage bank</h2>
@@ -107,7 +112,16 @@
                 <h2>Testimonials</h2>
                 <ul>
                     <li>
-                        <img>
+                        <picture>
+                            <source srcset="./images/webp/john-fang.webp 1x, ./images/webp/john-fang@2x.webp 2x, ./images/webp/john-fang@3x.webp 3x" 
+                                media="(min-width: 1200px)" 
+                                type="image/webp" />
+        
+                            <source srcset="./images/png/john-fang.png 1x, ./images/png/john-fang@2x.png 2x, ./images/png/john-fang@3x.png 3x" 
+                                media="(min-width: 1200px)" />
+                        
+                            <img class="" src="./images/png/john-fang.png" alt="John Fang" width="">
+                        </picture>
                         <h3>John Fang </h3>
                         <p>wordfaang.com</p>
                         <p>Suspendisse ultrices at diam lectus nullam. 
@@ -115,7 +129,16 @@
                         </p>
                     </li>
                     <li>
-                        <img>
+                        <picture>
+                            <source srcset="./images/webp/jeny-doe.webp 1x, ./images/webp/jeny-doe@2x.webp 2x, ./images/webp/jeny-doe@3x.webp 3x" 
+                                media="(min-width: 1200px)" 
+                                type="image/webp" />
+        
+                            <source srcset="./images/png/jeny-doe.png 1x, ./images/png/jeny-doe@2x.png 2x, ./images/png/jeny-doe@3x.png 3x" 
+                                media="(min-width: 1200px)" />
+                        
+                            <img class="" src="./images/png/jeny-doe.png" alt="Jeny Doe" width="">
+                        </picture>
                         <h3>Jeny Doe</h3>
                         <p>UX Engineer</p>
                         <p>Suspendisse ultrices at diam lectus nullam. 
@@ -123,7 +146,16 @@
                         </p>
                     </li>
                     <li>
-                        <img>
+                        <picture>
+                            <source srcset="./images/webp/william.webp 1x, ./images/webp/william@2x.webp 2x, ./images/webp/william@3x.webp 3x" 
+                                media="(min-width: 1200px)" 
+                                type="image/webp" />
+        
+                            <source srcset="./images/png/william.png 1x, ./images/png/william@2x.png 2x, ./images/png/william@3x.png 3x" 
+                                media="(min-width: 1200px)" />
+                        
+                            <img class="" src="./images/png/william.png" alt="William" width="">
+                        </picture>
                         <h3>William</h3>
                         <p>Web Designer</p>
                         <p>Suspendisse ultrices at diam lectus nullam. 

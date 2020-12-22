@@ -1,0 +1,18 @@
+.hero {
+    padding-top: 240px;
+    background-image: url("../images/png/hero.png"),
+    
+    linear-gradient(
+        to bottom,
+        $backgroundColor,
+        $primaryColor
+      );
+    background-repeat: no-repeat;
+    background-position: 70% 50%;
+    height: 905px;
+
+    &__text {
+        width: 380px;
+        height: 120px;
+    }
+}

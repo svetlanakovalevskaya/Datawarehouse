@@ -1,0 +1,44 @@
+.header {
+    position: absolute;
+    width: 100%;
+    padding-top: 50px;
+    background-color: iniial;
+
+    &__elements {
+        display: flex;
+        align-items: center;
+    }
+}
+
+.navigation {
+ margin-left: 120px;
+
+    & ul {
+        display: flex;
+    }
+}
+
+.navigation__item:not(:last-child) {
+    margin-right: 40px;
+}
+
+.button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 210px;
+    height: 60px;
+    margin-left: auto;
+    border-radius: 50px;
+    background-color: $primaryColor;
+    border: 0px;
+    box-shadow: 5px solid red;
+
+    &__text {
+        margin-right: 20px;
+    }
+
+    &__icon {
+     fill: $secondaryColor;
+    }
+}
