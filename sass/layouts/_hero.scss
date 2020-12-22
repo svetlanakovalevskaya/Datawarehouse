@@ -8,11 +8,38 @@
         $primaryColor
       );
     background-repeat: no-repeat;
-    background-position: 70% 50%;
+    background-position: 100% 50%;
     height: 905px;
+
+    &__title {
+        width: 645px;
+        margin-bottom: 50px;
+        font-family: $mainFont;
+        font-weight: 700;
+        font-size: 80px;
+        line-height: 88px;
+        color: $primaryTextColor;
+    }
 
     &__text {
         width: 380px;
         height: 120px;
+        margin-top: 0px;
+        margin-bottom: 50px;
+        font-family: $secondFont;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 29px;
+        color: $secondaryTextColor;
+    }
+
+    &__button {
+        width: 170px;
+        height: 60px;
+        background-color: $secondaryColor;
+        border-radius: 50px;
+        border: 0px;
+        color: $primaryColor;
     }
 }
